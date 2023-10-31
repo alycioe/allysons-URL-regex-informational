@@ -7,6 +7,7 @@ Regex, or Regular Expressions, are patterns that are set up by computers to prov
 A URL has a few components to it that are seen across the web. The regex expression is used to identify what characters can be used within a URL, as well as including the essential parts that every URL contains. I will place the expression below and break down and explain what each part means.
 
 URL RegEx
+
 /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 
 ## Table of Contents
